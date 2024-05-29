@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(11 42 99);
+}
+
+canvas {
+    background-color: #eee;
+    display: block;
+    margin: auto;
+   
+}
+
+
+#score {
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#restartBtn {
+    color: rgb(199, 63, 58);
+    background-color: firebrick;
+    display: block;
+    margin: 10px auto;
+  
+}
