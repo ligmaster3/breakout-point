@@ -1,22 +1,25 @@
 // Obtener el elemento canvas y su contexto 2D para dibujar
 const canvas = document.getElementById("breakoutCanvas");
 const ctx = canvas.getContext("2d");
-
+//canvas: Obtiene el elemento HTML <canvas> para dibujar en él.
+//Obtiene el contexto 2D del canvas, que es necesario para realizar las operaciones de dibujo.
 // Inicialización de las variables de la pelota
 const ballRadius = 10;
 let x = canvas.width / 2;
 let y = canvas.height - 30;
 let dx = 2;
 let dy = -2;
-
-// Establecer el tamaño del canvas
+/*ballRadius: Define el radio de la pelota.
+x y y: Posición inicial de la pelota en el centro del canvas.
+dx y dy: Velocidad de la pelota en las direcciones x e y.*/
+// Establecer el tamaño del ancho y alto
 canvas.width = 600;
 canvas.height = 500;
 
 // Inicialización de las variables de la pala
 const paddleHeight = 10;    
 const paddleWidth = 80;
-let paddleX = (canvas.width - paddleWidth) / 2;
+let paddleX = (canvas.width - paddleWidth) / 2; //paddleX: Posición inicial de la pala centrada en la parte inferior del canvas.
 
 // Inicialización de las variables de control de movimiento
 let rightPressed = false;
