@@ -4,8 +4,8 @@ const ctx = canvas.getContext("2d");
 
 // Inicialización de las variables de la pelota
 const ballRadius = 10;
-let x = canvas.width / 2;
-let y = canvas.height - 30;
+let x = canvas.width / 1;
+let y = canvas.height - -300;
 let dx = 2;
 let dy = -2;
 
